@@ -1,0 +1,30 @@
+.button{
+    background-color: grey;
+    width: 60px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    margin: 5px;
+}
+input {
+    border: 1px solid #6170ff;
+
+    border-radius: 5px;
+
+    background: #ffffff !important;
+    outline: none;
+    height: 24px;
+    width: 120px;
+    color: #002200;
+    font-size: 11px;
+    font-family: Tahoma;
+    margin-bottom: 5px;
+
+}
+input:focus{
+    border: 2px solid #6170ff;
+}
+
+.error {
+    border: 1px solid red;
+}
