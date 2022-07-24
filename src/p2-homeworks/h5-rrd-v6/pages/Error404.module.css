@@ -1,0 +1,41 @@
+.MainDiv{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    color:grey;
+    margin-bottom: .40em;
+}
+
+p {
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.navlink{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+}
+.navlink:hover  {
+    background-color: grey;
+}
