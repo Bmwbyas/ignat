@@ -1,14 +1,15 @@
 .NavBotton {
     background-color:grey;
     color: white;
-    padding: 5px;
+    padding: 12px 16px;
     font-size: 16px;
     border: none;
 }
 
 .NavBody {
+    display: flex;
     position: relative;
-    display: inline-block;
+
 }
 
 .NavContent {
@@ -19,7 +20,10 @@
     box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.2);
     z-index: 1;
 }
+.NavContentWrapper{
+    display: flex;
 
+}
 .NavItem {
     color: black;
     padding: 12px 16px;
