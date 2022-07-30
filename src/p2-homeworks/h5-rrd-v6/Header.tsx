@@ -8,12 +8,12 @@ function Header() {
             <button className={s.NavBotton}> menu</button>
             <div className={s.NavContent}>
                 <div className={s.NavContentWrapper}>
-                    <div className={s.NavItem}><NavLink to="/pre-junior">PreJunior</NavLink>
-                    </div>
-                    <div className={s.NavItem}><NavLink to="/junior">Junior</NavLink>
-                    </div>
-                    <div className={s.NavItem}><NavLink to="/junior+">Junior+</NavLink>
-                    </div>
+                    <NavLink to="/pre-junior" className={s.NavItem}>PreJunior</NavLink>
+
+                    <NavLink to="/junior" className={s.NavItem}>Junior</NavLink>
+
+                    <NavLink to="/junior+" className={s.NavItem}>Junior+</NavLink>
+
                 </div>
             </div>
         </div>
