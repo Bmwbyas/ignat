@@ -1,0 +1,21 @@
+.select {
+    margin: 10px 0;
+    width: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.option {
+
+    width: 70px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.option:checked{
+    background-color: chartreuse;
+}

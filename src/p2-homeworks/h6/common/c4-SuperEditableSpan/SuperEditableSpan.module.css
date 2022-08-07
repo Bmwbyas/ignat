@@ -1,0 +1,17 @@
+.superSpan{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #000000;
+    margin: 5px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+}
+.superSpan:hover{
+    border: 1px solid black;
+
+}
+.superSpan:active{
+    background-color:chartreuse;
+}
