@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 220px 73px;
+    width: 293px;
+    background-color: #b196c8;
+    font-size: 20px;
+}
+.name{
+padding-left: 10px;
+}
+.age{
+    padding:0 20px;
+    text-align: end;
+}
