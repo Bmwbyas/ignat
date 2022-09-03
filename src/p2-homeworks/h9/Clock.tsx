@@ -5,10 +5,10 @@ function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
     const [date, setDate] = useState<Date>(new Date())
     const [show, setShow] = useState<boolean>(false)
-
+    console.log(timerId)
     const stop = () => {
         console.log('stop')
-        clearTimeout(timerId)
+        clearInterval(timerId)
     }
     const start = () => {
         stop()
@@ -16,6 +16,7 @@ function Clock() {
             setDate(new Date())
         }, 1000)
         setTimerId(id)
+
     }
 
     const onMouseEnter = () => {
@@ -25,8 +26,8 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.toLocaleTimeString()
-    const stringDate = date.toLocaleDateString()
+    const stringTime = date?.toLocaleTimeString()||<br/>
+    const stringDate = date?.toLocaleDateString()||<br/>
 
     return (
         <div>
